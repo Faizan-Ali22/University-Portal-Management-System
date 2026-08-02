@@ -1,0 +1,15 @@
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.csproj.AssemblyReference.cache
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.AssemblyInfoInputs.cache
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.AssemblyInfo.cs
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.csproj.CoreCompileInputs.cache
+D:\CyberSafe-Git\Web\UniversityApp.DAL\bin\Debug\net6.0\UniversityApp.DAL.deps.json
+D:\CyberSafe-Git\Web\UniversityApp.DAL\bin\Debug\net6.0\UniversityApp.DAL.dll
+D:\CyberSafe-Git\Web\UniversityApp.DAL\bin\Debug\net6.0\UniversityApp.DAL.pdb
+D:\CyberSafe-Git\Web\UniversityApp.DAL\bin\Debug\net6.0\UniversityApp.Entities.dll
+D:\CyberSafe-Git\Web\UniversityApp.DAL\bin\Debug\net6.0\UniversityApp.Entities.pdb
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.csproj.CopyComplete
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.dll
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\refint\UniversityApp.DAL.dll
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\UniversityApp.DAL.pdb
+D:\CyberSafe-Git\Web\UniversityApp.DAL\obj\Debug\net6.0\ref\UniversityApp.DAL.dll

@@ -1,0 +1,63 @@
+/* RESET default margins/paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f1f3f5;
+}
+
+/* Ensure layout container fills full width and height */
+.layout-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Prevent container margins from Bootstrap */
+.container,
+.container-fluid,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section background image */
+.hero-banner {
+    width: 100%;
+    height: 380px;
+    background: url('/images/air.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+    .hero-banner .overlay {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .hero-banner .container {
+        position: relative;
+        z-index: 2;
+    }
+
+.main-content {
+    padding: 2rem;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+/* Optional: remove spacing inside <main> if needed */
+main {
+    margin: 0;
+    padding: 0;
+}

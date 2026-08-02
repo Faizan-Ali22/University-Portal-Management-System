@@ -1,0 +1,12 @@
+d:\CyberSafe-Git\Web\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.deps.json
+d:\CyberSafe-Git\Web\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.dll
+d:\CyberSafe-Git\Web\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.pdb
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.csproj.AssemblyReference.cache
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.AssemblyInfoInputs.cache
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.AssemblyInfo.cs
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.csproj.CoreCompileInputs.cache
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.dll
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\refint\UniversityApp.Entities.dll
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.pdb
+d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\ref\UniversityApp.Entities.dll

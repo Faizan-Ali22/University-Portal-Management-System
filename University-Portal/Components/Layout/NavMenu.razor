@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Components.Routing
+
+<aside class="sidebar shadow-lg">
+    <div class="sidebar-header text-center py-4 text-white border-bottom">
+        <h4 class="mb-0 fw-bold">
+            <i class="bi bi-building me-2 fs-4"></i>Air University
+        </h4>
+        <small class="text-light fst-italic">Admin Portal</small>
+    </div>
+
+    <ul class="nav flex-column pt-3 px-3">
+        <li class="nav-item">
+            <NavLink class="nav-link sidebar-link" href="/" Match="NavLinkMatch.All">
+                <i class="bi bi-house-door-fill me-2"></i> Home
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link sidebar-link" href="/students">
+                <i class="bi bi-people-fill me-2"></i> Students
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link sidebar-link" href="/courses">
+                <i class="bi bi-journal-bookmark-fill me-2"></i> Courses
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link sidebar-link" href="/faculty">
+                <i class="bi bi-person-badge-fill me-2"></i> Faculty
+            </NavLink>
+        </li>
+    </ul>
+
+    <div class="mt-auto px-3 pb-4 text-white small">
+        @if (authUser != null && authUser.Identity?.IsAuthenticated == true)
+        {
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-person-circle me-2 fs-5"></i>
+                    <span>@authUser.Identity.Name</span>
+                </div>
+                <a class="btn btn-outline-light btn-sm w-100" href="/logout">Logout</a>
+        }
+        else
+        {
+                <a class="btn btn-outline-light btn-sm w-100" href="/login">Login with Google</a>
+        }
+    </div>
+</aside>
+
+@code {
+    private ClaimsPrincipal? authUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        authUser = authState.User;
+    }
+}

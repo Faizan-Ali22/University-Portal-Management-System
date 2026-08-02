@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iifXQCl1vV3boXZzUZKzXvcOn+xqN/myb007TzpsSIdYt7hcP2G5xNa84cWlrxwaKRHBudsh6GTgUlfDRpLRJQ==",
+  "success": true,
+  "projectFilePath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\faiza\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

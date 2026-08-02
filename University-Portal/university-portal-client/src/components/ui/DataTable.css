@@ -1,0 +1,118 @@
+.datatable-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.datatable-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  outline: none;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.datatable th {
+  text-align: left;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.datatable th.sortable {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.datatable th.sortable:hover {
+  color: var(--text-primary);
+  background: var(--bg-card-hover);
+}
+
+.th-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.datatable td {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-primary);
+}
+
+.datatable tbody tr {
+  transition: var(--transition);
+}
+
+.datatable tbody tr:hover {
+  background: var(--bg-card-hover);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-action {
+  background: transparent;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-action.edit {
+  color: var(--color-secondary);
+}
+.btn-action.edit:hover {
+  background: rgba(6, 182, 212, 0.1);
+}
+
+.btn-action.delete {
+  color: var(--color-error);
+}
+.btn-action.delete:hover {
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.datatable-footer {
+  padding: 1rem 1.5rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}

@@ -1,0 +1,125 @@
+﻿@page "/courses"
+@using UniversityApp.Entities
+@using UniversityApp.BLL.Services.Api
+@inject CourseApiService CourseService
+@rendermode InteractiveServer
+
+<h3 class="mb-4 text-primary">Manage Courses</h3>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <EditForm Model="NewCourse" OnValidSubmit="HandleSubmit" class="row g-3">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="col-md-4">
+                <InputText class="form-control" placeholder="Course Title" @bind-Value="NewCourse.Title" />
+            </div>
+            <div class="col-md-3">
+                <InputText class="form-control" placeholder="Course Code" @bind-Value="NewCourse.Code" />
+            </div>
+            <div class="col-md-2">
+                <InputNumber class="form-control" placeholder="Credit Hours" @bind-Value="NewCourse.CreditHours" />
+            </div>
+            <div class="col-md-2 d-grid">
+                <button type="submit" class="btn btn-success">@((IsEditMode ? "Update" : "Add"))</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@if (courseList == null || courseList.Count == 0)
+{
+    <div class="alert alert-info">No courses found.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Code</th>
+                <th>Credit Hours</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in courseList)
+            {
+                <tr>
+                    <td>@course.Id</td>
+                    <td>@course.Title</td>
+                    <td>@course.Code</td>
+                    <td>@course.CreditHours</td>
+                    <td>@course.CreatedAt.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning me-2" @onclick="() => EditCourse(course)">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteCourse(course.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Course> courseList = new();
+    private Course NewCourse = new();
+    private bool IsEditMode = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCourses();
+    }
+
+    private async Task LoadCourses()
+    {
+        try
+        {
+            courseList = await CourseService.GetCoursesAsync() ?? new List<Course>();
+        }
+        catch (Exception)
+        {
+            // keep UI simple; surface errors later if needed
+            courseList = new List<Course>();
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (IsEditMode)
+        {
+            await CourseService.UpdateCourseAsync(NewCourse);
+        }
+        else
+        {
+            NewCourse.CreatedAt = DateTime.Now;
+            await CourseService.AddCourseAsync(NewCourse);
+        }
+
+        NewCourse = new();
+        IsEditMode = false;
+        await LoadCourses();
+    }
+
+    private void EditCourse(Course course)
+    {
+        NewCourse = new Course
+        {
+            Id = course.Id,
+            Title = course.Title,
+            Code = course.Code,
+            CreditHours = course.CreditHours,
+            CreatedAt = course.CreatedAt
+        };
+        IsEditMode = true;
+    }
+
+    private async Task DeleteCourse(int id)
+    {
+        await CourseService.DeleteCourseAsync(id);
+        await LoadCourses();
+    }
+}
