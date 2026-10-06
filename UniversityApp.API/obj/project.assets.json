@@ -2074,11 +2074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj",
+      "projectUniqueName": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj",
       "projectName": "UniversityApp.API",
-      "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj",
+      "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj",
       "packagesPath": "C:\\Users\\faiza\\.nuget\\packages\\",
-      "outputPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\obj\\",
+      "outputPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\faiza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2093,14 +2093,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
-              "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj"
+            "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
+              "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj"
             },
-            "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
-              "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
+            "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
+              "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
             },
-            "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
-              "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
+            "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
+              "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
             }
           }
         }

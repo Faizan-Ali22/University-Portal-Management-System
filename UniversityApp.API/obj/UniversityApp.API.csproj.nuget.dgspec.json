@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj": {}
+    "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj": {}
   },
   "projects": {
-    "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj": {
+    "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj",
+        "projectUniqueName": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj",
         "projectName": "UniversityApp.API",
-        "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\UniversityApp.API.csproj",
+        "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\UniversityApp.API.csproj",
         "packagesPath": "C:\\Users\\faiza\\.nuget\\packages\\",
-        "outputPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.API\\obj\\",
+        "outputPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faiza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj"
               },
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
               },
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
+    "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
+        "projectUniqueName": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
         "projectName": "UniversityApp.BLL",
-        "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
+        "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
         "packagesPath": "C:\\Users\\faiza\\.nuget\\packages\\",
-        "outputPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\obj\\",
+        "outputPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faiza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,11 +110,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj"
               },
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
+    "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj",
+        "projectUniqueName": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj",
         "projectName": "UniversityApp.DAL",
-        "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\UniversityApp.DAL.csproj",
+        "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\UniversityApp.DAL.csproj",
         "packagesPath": "C:\\Users\\faiza\\.nuget\\packages\\",
-        "outputPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.DAL\\obj\\",
+        "outputPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faiza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -196,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
-                "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
+              "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
+                "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj"
               }
             }
           }
@@ -245,14 +245,14 @@
         }
       }
     },
-    "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
+    "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj",
+        "projectUniqueName": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj",
         "projectName": "UniversityApp.Entities",
-        "projectPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\UniversityApp.Entities.csproj",
+        "projectPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\UniversityApp.Entities.csproj",
         "packagesPath": "C:\\Users\\faiza\\.nuget\\packages\\",
-        "outputPath": "d:\\CyberSafe-Git\\Web\\UniversityApp.Entities\\obj\\",
+        "outputPath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faiza\\AppData\\Roaming\\NuGet\\NuGet.Config"

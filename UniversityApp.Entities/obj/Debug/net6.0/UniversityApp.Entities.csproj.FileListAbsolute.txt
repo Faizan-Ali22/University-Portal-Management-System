@@ -10,3 +10,15 @@ d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entit
 d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\refint\UniversityApp.Entities.dll
 d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.pdb
 d:\CyberSafe-Git\Web\UniversityApp.Entities\obj\Debug\net6.0\ref\UniversityApp.Entities.dll
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.deps.json
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.dll
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\bin\Debug\net6.0\UniversityApp.Entities.pdb
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.csproj.AssemblyReference.cache
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.AssemblyInfoInputs.cache
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.AssemblyInfo.cs
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.csproj.CoreCompileInputs.cache
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.dll
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\refint\UniversityApp.Entities.dll
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\UniversityApp.Entities.pdb
+D:\CyberSafe-Git\Web\University-Portal-Management-System\UniversityApp.Entities\obj\Debug\net6.0\ref\UniversityApp.Entities.dll

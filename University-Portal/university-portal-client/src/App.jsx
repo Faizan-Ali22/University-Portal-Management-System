@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -11,6 +11,7 @@ import Courses from './pages/Courses';
 import Faculty from './pages/Faculty';
 import Profile from './pages/Profile';
 import EmptyState from './components/ui/EmptyState';
+import ErrorBoundary from './components/ErrorBoundary';
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();
@@ -36,7 +37,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<ProtectedRoute><AppLayout /></ProtectedRoute>}>
               <Route index element={<Dashboard />} />
-              <Route path="students" element={<Students />} />
+              <Route path="students" element={<ErrorBoundary><Students /></ErrorBoundary>} />
               <Route path="courses" element={<Courses />} />
               <Route path="faculty" element={<Faculty />} />
               <Route path="departments" element={<Placeholder title="Departments" />} />

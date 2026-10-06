@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3z5gIm7sWwp5Sd0apN49slk/9LidimoAEZT0x7uA0OUCmnvoq1Tvk7LxPtTCllvKuW1AfWabLl2FupzM7WOjVg==",
+  "dgSpecHash": "WvhGMgII1R5Ypo1HDMHmk30rPIHuntnsh1DlfRW2HtHnlMO06qcOtFr0fCsBjrQo/jxhNG7JDsBEPqR/OahmSA==",
   "success": true,
-  "projectFilePath": "d:\\CyberSafe-Git\\Web\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
+  "projectFilePath": "D:\\CyberSafe-Git\\Web\\University-Portal-Management-System\\UniversityApp.BLL\\UniversityApp.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\faiza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\faiza\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

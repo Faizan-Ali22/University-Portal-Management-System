@@ -1,8 +1,9 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { Search, Bell, Sun, Moon, LogOut, Settings, User as UserIcon } from 'lucide-react';
+import { Search, Bell, Sun, Moon, LogOut } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 import { useAuth } from '../../context/AuthContext';
+import toast from 'react-hot-toast';
 import './TopBar.css';
 
 const TopBar = ({ collapsed }) => {
@@ -17,6 +18,13 @@ const TopBar = ({ collapsed }) => {
     return segment.charAt(0).toUpperCase() + segment.slice(1);
   };
 
+  const handleSearch = (e) => {
+    if (e.key === 'Enter') {
+      toast.success(`Searching for: ${e.target.value}`);
+      e.target.value = '';
+    }
+  };
+
   return (
     <header className={`topbar glass-card ${collapsed ? 'expanded' : ''}`}>
       <div className="topbar-left">
@@ -26,7 +34,12 @@ const TopBar = ({ collapsed }) => {
       <div className="topbar-center">
         <div className="search-container glass-card">
           <Search className="search-icon" size={18} />
-          <input type="text" placeholder="Search..." className="search-input" />
+          <input 
+            type="text" 
+            placeholder="Search and press Enter..." 
+            className="search-input" 
+            onKeyDown={handleSearch}
+          />
         </div>
       </div>
 

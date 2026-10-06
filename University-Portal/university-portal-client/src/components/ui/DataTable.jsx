@@ -7,22 +7,6 @@ import EmptyState from './EmptyState';
 const DataTable = ({ columns, data, loading, onEdit, onDelete }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortConfig, setSortConfig] = useState(null);
-  
-  if (loading) {
-    return (
-      <div className="datatable-container glass-card">
-        {[1,2,3,4,5].map(i => <Skeleton key={i} variant="table-row" />)}
-      </div>
-    );
-  }
-
-  if (!data || data.length === 0) {
-    return (
-      <div className="datatable-container glass-card">
-        <EmptyState message="No records found" />
-      </div>
-    );
-  }
 
   const handleSort = (key) => {
     let direction = 'ascending';
@@ -33,6 +17,7 @@ const DataTable = ({ columns, data, loading, onEdit, onDelete }) => {
   };
 
   const sortedData = React.useMemo(() => {
+    if (!data) return [];
     let sortableItems = [...data];
     if (searchTerm) {
       sortableItems = sortableItems.filter(item => 
@@ -54,6 +39,22 @@ const DataTable = ({ columns, data, loading, onEdit, onDelete }) => {
     }
     return sortableItems;
   }, [data, sortConfig, searchTerm]);
+  
+  if (loading) {
+    return (
+      <div className="datatable-container glass-card">
+        {[1,2,3,4,5].map(i => <Skeleton key={i} variant="table-row" />)}
+      </div>
+    );
+  }
+
+  if (!data || data.length === 0) {
+    return (
+      <div className="datatable-container glass-card">
+        <EmptyState message="No records found" />
+      </div>
+    );
+  }
 
   return (
     <div className="datatable-container glass-card">
